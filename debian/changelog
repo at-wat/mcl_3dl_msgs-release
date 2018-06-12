@@ -1,0 +1,18 @@
+ros-melodic-mcl-3dl-msgs (0.1.2-0bionic) bionic; urgency=high
+
+  * Fix runtime dependency (https://github.com/at-wat/mcl_3dl_msgs/issues/3)
+  * Fix package dependency (https://github.com/at-wat/mcl_3dl_msgs/issues/2)
+  * Build messages and services
+  * Initial drop from mcl_3dl package
+  * Support variable particle size (https://github.com/at-wat/mcl_3dl/issues/78)
+    
+      * Support variable particle size.
+      * Add service to change particle size.
+      * Add test for resizeParticle.
+    
+  * Add localization status output (https://github.com/at-wat/mcl_3dl/issues/120)
+  * Contributors: Atsushi Watanabe
+
+ -- Atsushi Watanabe <atsushi.w@ieee.org>  Tue, 12 Jun 2018 00:00:00 -0000
+
+
