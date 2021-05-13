@@ -1,0 +1,53 @@
+ros-noetic-mcl-3dl-msgs (0.6.0-1buster) buster; urgency=high
+
+  * Add LoadPCD.srv (#30 <https://github.com/at-wat/mcl_3dl_msgs/issues/30>)
+  * Update assets to v0.3.1 (#31 <https://github.com/at-wat/mcl_3dl_msgs/issues/31>)
+  * Update assets to v0.3.0 (#29 <https://github.com/at-wat/mcl_3dl_msgs/issues/29>)
+  * Update assets to v0.2.0 (#28 <https://github.com/at-wat/mcl_3dl_msgs/issues/28>)
+  * Update assets to v0.1.5 (#27 <https://github.com/at-wat/mcl_3dl_msgs/issues/27>)
+  * Update assets to v0.1.4 (#26 <https://github.com/at-wat/mcl_3dl_msgs/issues/26>)
+  * Update assets to v0.1.3 (#25 <https://github.com/at-wat/mcl_3dl_msgs/issues/25>)
+  * Update dockerignore (#24 <https://github.com/at-wat/mcl_3dl_msgs/issues/24>)
+  * Add LICENSE file (#23 <https://github.com/at-wat/mcl_3dl_msgs/issues/23>)
+  * Update assets to v0.1.2 (#21 <https://github.com/at-wat/mcl_3dl_msgs/issues/21>)
+  * Migrate to GitHub Actions (#19 <https://github.com/at-wat/mcl_3dl_msgs/issues/19>)
+  * Update assets to v0.0.10 (#18 <https://github.com/at-wat/mcl_3dl_msgs/issues/18>)
+  * Update assets to v0.0.9 (#16 <https://github.com/at-wat/mcl_3dl_msgs/issues/16>)
+  * Update CI scripts (#17 <https://github.com/at-wat/mcl_3dl_msgs/issues/17>)
+  * Update assets to v0.0.8 (#14 <https://github.com/at-wat/mcl_3dl_msgs/issues/14>)
+  * Update assets to v0.0.7 (#13 <https://github.com/at-wat/mcl_3dl_msgs/issues/13>)
+  * Contributors: Atsushi Watanabe, Remco
+
+ -- Atsushi Watanabe <atsushi.w@ieee.org>  Wed, 12 May 2021 00:00:00 -0000
+
+ros-noetic-mcl-3dl-msgs (0.2.0-1buster) buster; urgency=high
+
+  * Update assets to v0.0.6 (#11 <https://github.com/at-wat/mcl_3dl_msgs/issues/11>)
+  * Update assets to v0.0.5 (#10 <https://github.com/at-wat/mcl_3dl_msgs/issues/10>)
+  * Add catkin/bloom release action (#8 <https://github.com/at-wat/mcl_3dl_msgs/issues/8>)
+  * Expose internal errors (#7 <https://github.com/at-wat/mcl_3dl_msgs/issues/7>)
+  * Refactor CI scripts (#6 <https://github.com/at-wat/mcl_3dl_msgs/issues/6>)
+  * Fix package dependencies (#5 <https://github.com/at-wat/mcl_3dl_msgs/issues/5>)
+  * Add test on ROS Melodic (#4 <https://github.com/at-wat/mcl_3dl_msgs/issues/4>)
+  * Contributors: Atsushi Watanabe, Daiki Maekawa
+
+ -- Atsushi Watanabe <atsushi.w@ieee.org>  Thu, 16 Jan 2020 00:00:00 -0000
+
+ros-noetic-mcl-3dl-msgs (0.1.2-1buster) buster; urgency=high
+
+  * Fix runtime dependency (https://github.com/at-wat/mcl_3dl_msgs/issues/3)
+  * Fix package dependency (https://github.com/at-wat/mcl_3dl_msgs/issues/2)
+  * Build messages and services
+  * Initial drop from mcl_3dl package
+  * Support variable particle size (https://github.com/at-wat/mcl_3dl/issues/78)
+    
+      * Support variable particle size.
+      * Add service to change particle size.
+      * Add test for resizeParticle.
+    
+  * Add localization status output (https://github.com/at-wat/mcl_3dl/issues/120)
+  * Contributors: Atsushi Watanabe
+
+ -- Atsushi Watanabe <atsushi.w@ieee.org>  Tue, 12 Jun 2018 00:00:00 -0000
+
+
